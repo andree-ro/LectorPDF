@@ -35,12 +35,7 @@ public class MosBin extends javax.swing.JFrame {
                 L = L + archive.readLine() + "\n";
                 i = L.length();
             }
-            
-             
-             
-             
-             
-         
+
             archive.close();
             
        } catch (FileNotFoundException ex) {
